@@ -1,0 +1,75 @@
+/* styles.css */
+
+body { background-color: #fef6e4;}
+
+.header {
+    height: auto;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+h1 {
+    color: #001858;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h2,
+h3,
+h4,
+.hlink {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #272343;
+}
+
+p,
+.recipe {
+    color: #2d334a;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-recip {
+    /*float: left;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 400px;
+}
+
+#lista {
+    text-align: center;
+    color: #2d334a;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#indx-ul{
+    color: #172c66;
+    display: inline-block;
+    text-align: left;
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+#indx-li {
+    /*text-align: center;*/
+}
+
+.hlink.src,
+.hlink.transla {
+    text-align: right;
+}
