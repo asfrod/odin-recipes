@@ -1,6 +1,14 @@
 /* styles.css */
 
-body { background-color: #fef6e4;}
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #fef6e4;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 .header {
     height: auto;
